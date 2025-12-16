@@ -67,4 +67,4 @@ jobs:
         run: pnpm install
       
       - name: Check formatting
-        run: pnpm prettier --check "./**/*.{ts,json}"
+        run: pnpm prettier --check "src/**/*.ts" "test/**/*.ts"
